@@ -75,7 +75,7 @@ function push() {
       
     }
 
-    if (counter == 8) {
+    if (counter == 10000) {
       alert("Overflow : Stack full");
     } else {
       counter++;
