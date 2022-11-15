@@ -73,7 +73,7 @@ body {
   padding: 20px 30px;
   border-radius: 25px;
   background: #222;
-  box-shadow: 5px 5px 10px #181818, -5px -5px 10px #2c2c2cd8;
+  
 }
 #canvas {
   grid-column: 2/4;
@@ -200,7 +200,6 @@ option {
 }
 .btn:hover {
   transition: 0.5s ease;
-  box-shadow: 10px 10px 10px #0e0e0e, -7px -7px 10px #333333d8;
 }
 .btn-yellow {
   background: rgb(255, 208, 0);
@@ -350,7 +349,6 @@ option {
   width: inherit;
   border-radius: 20px;
   background: #2c2c2c;
-  box-shadow: 5px 5px 10px #181818, -5px -5px 10px #2c2c2cd8;
   transition: background 0.6s ease-in-out;
   animation: flip 1s cubic-bezier(0.07, 0.84, 0.96, 0.23) forwards;
   animation-timing-function: ease-in;
@@ -437,7 +435,6 @@ option {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  box-shadow: 5px 5px 5px #181818, -5px -5px 10px #5050503a;
   text-align: center;
   vertical-align: middle;
 }
@@ -450,7 +447,6 @@ option {
   font-weight: 700;
   border: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px #181818, -1px -1px 10px #181818;
   text-align: center;
   vertical-align: middle;
   font-size: 22px;
@@ -467,8 +463,6 @@ option {
   height: 320px;
   background: #111;
   border-radius: 25px;
-  box-shadow: 10px 10px 10px #0f0f0f,
-              -5px -5px 10px #2c2c2cd8;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-top: none;
 }
@@ -520,11 +514,10 @@ option {
   display: block;
   height: 60px;
   padding: 5px;
-  background: #101010;
+  background: #222222;
   width: 540px;
   border-radius: 20px;
   margin-bottom: 10px;
-  box-shadow: 10px 10px 10px #181818, -5px -5px 10px #4e4e4e4f;
 }
 #array {
   display: flex;
@@ -534,14 +527,12 @@ option {
 }
 .array_box {
   height: 40px;
-  width: 40px;
+  width: 400px;
   padding: 5px;
   margin: 5px;
   border-radius: 10px;
   background: rgba(0, 122, 255, 0.2);
   color: rgb(0, 122, 255);
-  box-shadow: 5px 5px 10px #000b20,
-              -2px -2px 5px #b0f3ff33;
   animation: flip 0.5s cubic-bezier(0.07, 0.84, 0.96, 0.23) forwards;
   animation-timing-function: ease-in;
   animation-delay: 0ms;
@@ -561,9 +552,8 @@ option {
   width: 200px;
   height: 350px;
   vertical-align: bottom;
-  background: #101010;
+  background: #222222;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px #181818, -5px -5px 10px #4e4e4e4f;
   margin-left: 0px;
   margin-bottom: 0px;
 }
@@ -575,7 +565,6 @@ option {
   margin: 0px 10px;
   margin-bottom: 8px;
   border-radius: 5px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
   background: rgba(0, 122, 255, 0.2);
   color: rgb(0, 122, 255);
   animation: flip 0.5s cubic-bezier(0.07, 0.84, 0.96, 0.23) forwards;
@@ -607,8 +596,6 @@ option {
   background: rgba(0, 185, 43, 0.2);
   color: #4caf50;
   border-radius: 25px;
-  box-shadow: 5px 5px 10px #000c00a8,
-              -2px -2px 10px #3aff4428;
   overflow: scroll;
 }
 .algo-steps{
@@ -630,7 +617,6 @@ option {
   width: 600px;
   background: #111;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px #181818, -5px -5px 10px #2c2c2cd8;
 }
 #modal-head{
   padding: 20px 30px;
